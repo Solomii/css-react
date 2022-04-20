@@ -6,32 +6,29 @@ import "./FooterStyle.css"
 
 export const Footer = () => {
   return (
-    <footer>
-      <section>
-        <div>
-          <div>
-            <nav>
-              <ul>
-                <li>
-                  <Link to="#">PREISE</Link>
+    <footer className="footer">
+          <div className="footer__menu">
+            <nav className="footer__menu__navigation">
+              <ul className="footer__menu__ul">
+                <li className="footer__menu__li">
+                  <Link className="footer__menu__link" to="#">PREISE</Link>
                 </li>
-                <li>
-                  <Link to="#">REFERENZEN</Link>
+                <li className="footer__menu__li">
+                  <Link className="footer__menu__link" to="#">REFERENZEN</Link>
                 </li>
-                <li>
-                  <Link to="#">KONTAKT</Link>
+                <li className="footer__menu__li">
+                  <Link className="footer__menu__link" to="#">KONTAKT</Link>
                 </li>
               </ul>
             </nav>
           </div>
-        </div>
-        <div>
-          <div>
-          <h3>Psotsrt, 45, 44890</h3>
-          <h3>hello@tratata.de</h3>
-          <h3>040380-33-44</h3>
+        <div className="footer__box__adress">
+          <div className="footer__box__contact">
+          <a href="#">Psotsrt, 45, 44890</a>
+          <a href="#">hello@tratata.de</a>
+          <a href="#">040380-33-44</a>
           </div>
-          <div>
+          <div className="footer__box__email">
             <h2>SCHREIBEN SIE UNS!</h2>
             <form action="">
               <input type="text" placeholder="Firma/Organisation" />
@@ -45,11 +42,9 @@ export const Footer = () => {
             </form>
           </div>
         </div>
-        <article>
+        <div className="footer__bottom">
           <p>2019 Cenius Web Agentur.Alle Rchte vorbehalten</p>
-        </article>
-      </section>
+        </div>
     </footer>
   )
 }
-
