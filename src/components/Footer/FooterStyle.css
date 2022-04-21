@@ -99,6 +99,8 @@
   width: 568px;
   height: 160px;
   border: none;
+  margin-bottom: 30px;
+  resize: none;
 }
 
 .footer__placeholder {
@@ -114,8 +116,25 @@
 .footer__box__email button {
   width: 197.48px;
   height: 47.24px;
+  margin:0 auto;
+  display:block;
+  position: relative;
+  background: #0063B2;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
   filter: drop-shadow(0px 8px 22px rgba(66, 66, 66, 0.25)) 
 }
+
+.footer__box__email button:hover {
+  background: #2F7EBD;
+}
+
+.footer__box__email button:active {
+  background: white;
+}
+
+
 
 .footer__bottom {
   display: flex;

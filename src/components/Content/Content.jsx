@@ -5,6 +5,9 @@ import "./ContentStyle.css"
 export const Content = () => {
   return (
     <main className="main">
+      <section className="main__title__picture">
+        <div className="main__title__picture__opacity"></div>
+      </section>
       <div className="main__title">
         <div className="main__title__background"></div>
         <div>
@@ -12,7 +15,6 @@ export const Content = () => {
           <p>Von unseren Designern gestaltet, von unseren Entwicklern programmiert, von rnserem Team realisiert - in enger Abstimmung mit dem Kunden. Zum Festpreis.</p>
         </div>
       </div>
-
       <section className="main__section">
         <div>
           <img src={require("../../img/Screen Shot 2019-11-20 at 13.13 1.jpg")} alt="Food" />

@@ -1,4 +1,6 @@
-
+.main {
+  margin-top: -2px;
+}
 .main__title {
   display: flex;
   height: 200px;
@@ -6,6 +8,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main__title__picture {
+  height: 398px;
+  background: url(../../img/tipss-886x520\ 1.jpg) 50% 50% no-repeat;
+  background-size: cover;   
+}
+
+.main__title__picture__opacity {
+  height: 398px;
+  background-color:rgba(0, 99, 178, 0.29) ;
+  opacity: 1;
 }
 
 .main__title h1 {

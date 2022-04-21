@@ -39,7 +39,7 @@ export const Footer = () => {
               <input className="footer__box__input footer__placeholder" type="text" placeholder="Telefon" />
             </div>
               <br />
-              <textarea className="footer__placeholder" name="textarea" id="" cols="30" rows="10" placeholder="Was ist Ihr Anliegen?"></textarea>
+              <textarea className="footer__placeholder" name="textinput" id="" cols="30" rows="10" placeholder="Was ist Ihr Anliegen?"></textarea>
               <br />
               <button>SENDEN</button>
             </form>
