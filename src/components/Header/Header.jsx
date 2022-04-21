@@ -9,10 +9,7 @@ export const Header= () => {
   return (
     <header className="header">
       <div className="header__box">
-
-
         <div className="header__logo"><span className="header__logo__span" href="/">GENIUS</span></div>
-
         <div className="header__menu">
           <nav className="header__menu__list">
             <ul className="header__menu__list__ul">
@@ -35,13 +32,7 @@ export const Header= () => {
              <a href="#"> 3</a>
           </div>
          </div>
-        
-        
         </div>
-
-
-
-
       </div>
     </header>
   )

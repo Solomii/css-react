@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 import { Link } from "react-router-dom";
@@ -28,15 +29,17 @@ export const Footer = () => {
           <a href="#">hello@tratata.de</a>
           <a href="#">040380-33-44</a>
           </div>
-          <div className="footer__box__email">
-            <h2>SCHREIBEN SIE UNS!</h2>
+        <div className="footer__box__email">
+              <h2>SCHREIBEN SIE UNS!</h2>
             <form action="">
-              <input type="text" placeholder="Firma/Organisation" />
+              <input className="footer__box__input__firma footer__placeholder" type="text" placeholder="Firma/Organisation" />
+            <br />
+            <div className="footer__box__email_telefon">
+              <input className="footer__box__input footer__placeholder" type="text" placeholder="E-mail" />
+              <input className="footer__box__input footer__placeholder" type="text" placeholder="Telefon" />
+            </div>
               <br />
-              <input type="text" placeholder="E-mail" />
-              <input type="text" placeholder="Telefon" />
-              <br />
-              <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+              <textarea className="footer__placeholder" name="textarea" id="" cols="30" rows="10" placeholder="Was ist Ihr Anliegen?"></textarea>
               <br />
               <button>SENDEN</button>
             </form>

@@ -4,10 +4,6 @@
   flex-direction: column;
 }
 
-.footer__box__adress {
-  display: flex;
-}
-
 .footer__menu {
   display: flex;
   justify-content: center;
@@ -15,6 +11,8 @@
   width: 1060px;
   height: 96px;
   background: #EEEEEE;
+  padding-bottom: -100px;
+  
 }
 
 .footer__menu__ul {
@@ -39,20 +37,84 @@
 }
 
 .footer__box__adress {
-  height: 713px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .footer__box__contact {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 713px;
+  width: 960px;
+  display: flex;
   flex-direction: column;
+  background: #0063B2;
+  opacity: 0.88; 
 }
 
 .footer__box__contact a{
   text-decoration: none;
+  color: #FFF;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+}
 
+.footer__box__email {
+  height: 713px;
+  width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__box__email input {
+  border: none;
+
+}
+
+.footer__box__input__firma {
+  width: 568px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.footer__box__input {
+  width: 278px;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.footer__box__email_telefon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__box__email textarea {
+  width: 568px;
+  height: 160px;
+  border: none;
+}
+
+.footer__placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  padding: 20px;
+}
+
+.footer__box__email button {
+  width: 197.48px;
+  height: 47.24px;
+  filter: drop-shadow(0px 8px 22px rgba(66, 66, 66, 0.25)) 
 }
 
 .footer__bottom {
