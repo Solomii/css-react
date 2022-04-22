@@ -1,6 +1,7 @@
 .main {
   margin-top: -2px;
 }
+
 .main__title {
   display: flex;
   height: 200px;
@@ -8,6 +9,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main__picture {
+  margin-right: -75px;
+}
+
+.main__picture__right {
+  margin-left: -75px;
+
 }
 
 .main__title__picture {
@@ -21,6 +31,27 @@
   background-color:rgba(0, 99, 178, 0.29) ;
   opacity: 1;
 }
+
+.main__picture__title {
+  letter-spacing: 0.1em;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 37px;
+  color: #504A4A;
+  margin-top: 62px;
+}
+
+.main__picture {
+  text-align: center;
+}
+
+.main__picture img{
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
 
 .main__title h1 {
   text-align: center;

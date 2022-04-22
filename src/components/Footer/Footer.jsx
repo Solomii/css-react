@@ -24,11 +24,13 @@ export const Footer = () => {
             </nav>
           </div>
         <div className="footer__box__adress">
-          <div className="footer__box__contact">
+        <div className="footer__box__contact">
+          <div className="footer__box__contect__opacity">
           <a href="#">Psotsrt, 45, 44890</a>
           <a href="#">hello@tratata.de</a>
           <a href="#">040380-33-44</a>
           </div>
+         </div> 
         <div className="footer__box__email">
               <h2>SCHREIBEN SIE UNS!</h2>
             <form action="">

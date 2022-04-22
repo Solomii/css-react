@@ -12,7 +12,7 @@
   height: 96px;
   background: #EEEEEE;
   padding-bottom: -100px;
-  
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 .footer__menu__ul {
@@ -41,15 +41,21 @@
 }
 
 .footer__box__contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 713px;
   width: 960px;
+  background: url(../../img/photo-1557804506-669a67965ba0\ 2.png) 50% 50% no-repeat;
+  background-size: cover; 
+}
+
+.footer__box__contect__opacity {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  height: 713px;
+  width: 960px;
   background: #0063B2;
-  opacity: 0.88; 
+  opacity: 0.88;  
 }
 
 .footer__box__contact a{
@@ -74,7 +80,6 @@
 
 .footer__box__email input {
   border: none;
-
 }
 
 .footer__box__input__firma {
