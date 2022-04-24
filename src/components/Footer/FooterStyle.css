@@ -1,4 +1,5 @@
 .footer {
+  margin-top: 80px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -11,8 +12,10 @@
   width: 1060px;
   height: 96px;
   background: #EEEEEE;
-  padding-bottom: -100px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
+  margin-bottom:-48px;
 }
 
 .footer__menu__ul {
@@ -24,13 +27,12 @@
 .footer__menu__li {
   list-style-type: none;
   text-decoration: none;
-  margin-left: 15px;
+  margin-left: 60px;
 }
 
 .footer__menu__link {
   text-decoration: none;
   color: #0063B2;
-  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
@@ -49,7 +51,7 @@
 
 .footer__box__contect__opacity {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   flex-direction: column;
   align-items: center;
   height: 713px;
@@ -62,11 +64,22 @@
   text-decoration: none;
   color: #FFF;
   font-family: 'Lato';
-  font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 150%;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1em;   
+}
+
+.footer__box__contact li {
+  list-style-type: none;
+  width: 400px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__box__icons {
+  margin-right: 15px;
+  font-size: 30px;
 }
 
 .footer__box__email {
@@ -109,8 +122,6 @@
 }
 
 .footer__placeholder {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -139,8 +150,6 @@
   background: white;
 }
 
-
-
 .footer__bottom {
   display: flex;
   justify-content: center;
@@ -149,4 +158,8 @@
   height: 62px;
   color: #FFF;
   background-color: #14202D;
+}
+
+.footer__bottom__icon {
+  font-size: 18px;
 }

@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
+import { FiChevronDown } from "react-icons/fi";
+
 import { Link } from "react-router-dom";
 
 import "./HeaderStyle.css"
@@ -25,11 +27,11 @@ export const Header= () => {
             </ul>
             </nav>
           <div className="header__dropdown">
-           <button className="header__dropbtn">EN?</button>
+            <button className="header__dropbtn">EN <FiChevronDown/></button>
             <div className="header__dropdown__content">
-             <a href="#"> 1</a>
-             <a href="#"> 2</a>
-             <a href="#"> 3</a>
+             <a href="#">1</a>
+             <a href="#">2</a>
+             <a href="#">3</a>
           </div>
          </div>
         </div>

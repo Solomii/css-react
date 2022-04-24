@@ -13,8 +13,7 @@
   width: 192px;
   height: 88px;
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 .header__logo__span {
@@ -30,7 +29,6 @@
 .header__menu {
   display: flex;
   font-family: 'Lato';
-  font-style: normal;
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0.1em;
@@ -48,6 +46,7 @@
   text-decoration: none;
   text-align: right;
   margin-top: 27px;
+  margin-right: 20px;
 }
 
 .header__link {
